@@ -63,6 +63,5 @@ for num in range(0, num):
         lista.append(' ')
     else:
         lista.append('Z')
-t = len(lista)
-for i in range(0, t):
-    print (lista[i])
+tab = ' '
+print (tab.join(lista))
